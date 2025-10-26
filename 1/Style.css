@@ -1,0 +1,38 @@
+/* VBox arka plan ve padding */
+#root {
+    -fx-padding: 20;
+    -fx-alignment: center;
+    -fx-background-color: linear-gradient(to bottom, #89f7fe, #66a6ff);
+}
+
+/* Label stili */
+Label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+/* TextField stili */
+TextField {
+    -fx-font-size: 16px;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #555;
+    -fx-padding: 5 10 5 10;
+}
+
+/* Button stili */
+Button {
+    -fx-font-size: 16px;
+    -fx-background-color: #ff7e5f;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-padding: 8 15 8 15;
+    -fx-cursor: hand;
+}
+
+/* Hover efekti */
+Button:hover {
+    -fx-background-color: #feb47b;
+}
