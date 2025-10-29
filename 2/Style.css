@@ -1,0 +1,31 @@
+/* Ana arka plan */
+#root {
+    -fx-background-color: linear-gradient(to bottom right, #74ebd5, #ACB6E5);
+}
+
+/* Sayı göstergesi */
+#counter-label {
+    -fx-font-size: 48px;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+/* Buton stili */
+Button {
+    -fx-font-size: 16px;
+    -fx-background-color: #ff9966;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+/* Hover efekti */
+Button:hover {
+    -fx-background-color: #ff5e62;
+}
+
+/* Aktif olma efekti */
+Button:pressed {
+    -fx-background-color: #d64d4d;
+}
